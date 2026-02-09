@@ -40,4 +40,24 @@ header {
   background-color: #04AA6D;   /* green hover like W3Schools */
 
 }
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 40px;
+  background: white;
+  min-width: 150px;
+  list-style: none;
+  padding: 0;
+}
+
+.dropdown-menu li a {
+  color: black;
+  display: block;
+  padding: 10px;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
 
